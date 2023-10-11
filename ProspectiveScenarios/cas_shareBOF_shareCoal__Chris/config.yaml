@@ -1,0 +1,19 @@
+# Configuration file for custom scenarios for `premise`
+
+---
+
+production pathways:
+  steel_BOF:
+    production volume:
+      variable: Share|steel_BOF
+    ecoinvent alias:
+      name: market for transport, passenger car with internal combustion engine
+      reference product: transport, passenger car with internal combustion engine
+
+  EAF_Coal:
+    production volume:
+      variable: Share|EAF_Coal
+    ecoinvent alias:
+      name: market for transport, passenger car, electric
+      reference product: transport, passenger car, electric
+

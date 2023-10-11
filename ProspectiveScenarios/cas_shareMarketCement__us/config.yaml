@@ -1,0 +1,27 @@
+# Configuration file for custom scenarios for `premise`
+
+---
+
+production pathways:
+  cement_SlagClinker:
+    production volume:
+      variable: Share|cement_SlagClinker
+    ecoinvent alias:
+      name: market for transport, passenger car with internal combustion engine
+      reference product: transport, passenger car with internal combustion engine
+
+  cement_ClayClinker:
+    production volume:
+      variable: Share|cement_ClayClinker
+    ecoinvent alias:
+      name: market for transport, passenger car, electric
+      reference product: transport, passenger car, electric
+
+  cement_FlyAshClinker:
+    production volume:
+      variable: Share|cement_FlyAshClinker
+    ecoinvent alias:
+      name: market for transport, passenger car, EURO 3
+      reference product: transport, passenger car, EURO 3
+
+ 
