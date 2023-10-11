@@ -1,6 +1,6 @@
 {
     "profile": "data-package",
-    "name": "scenario-example-BOF-Coal",
+    "name": "scenario-example-bof-coal",
     "title": "Scenario Example BOF-Coal",
     "description": "Test of prospective BOF-Coal scenarios to be used in premise",
     "version": "0.0.0",

@@ -1,6 +1,6 @@
 {
     "profile": "data-package",
-    "name": "scenario-example-ShareCementMarket",
+    "name": "scenario-example-sharecementmarket",
     "title": "Scenario Example ShareCementMarket",
     "description": "Test of prospective ShareCementMarket scenarios to be used in premise",
     "version": "0.0.0",
