@@ -27,18 +27,6 @@
                 "model": "image",
                 "pathway": "SSP2-RCP26"
             }
-        ],
-		"Regional rivalry": [
-            {
-                "model": "image",
-                "pathway": "SSP3-Base"
-            }
-        ],
-        "Climate disaster": [
-            {
-                "model": "image",
-                "pathway": "SSP3-RCP260"
-            }
         ]
     },
     "licenses": [{
@@ -119,61 +107,6 @@
                     {
                         "name": "2050",
                         "type": "number",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "inventories/lci-reinforced-concrete.csv",
-            "profile": "data-resource",
-            "name": "inventories",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "amount",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "database",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "location",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "categories",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "unit",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "reference product",
-                        "type": "string",
                         "format": "default"
                     }
                 ],
