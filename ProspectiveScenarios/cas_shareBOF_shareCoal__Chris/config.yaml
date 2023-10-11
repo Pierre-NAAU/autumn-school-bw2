@@ -1,0 +1,45 @@
+# Configuration file for custom scenarios for `premise`
+
+---
+
+production pathways:
+  steel_BOF:
+    production volume:
+      variable: Share|steel_BOF
+    ecoinvent alias:
+      name: market for transport, passenger car with internal combustion engine
+      reference product: transport, passenger car with internal combustion engine
+
+  EAF_Coal:
+    production volume:
+      variable: Share|EAF_Coal
+    ecoinvent alias:
+      name: market for transport, passenger car, electric
+      reference product: transport, passenger car, electric
+
+
+markets:
+  - name: transport, passenger car with internal combustion engine (new)
+    reference product: transport, passenger car with internal combustion engine
+    unit: kilometer
+    includes:
+      - EURO3
+      - EURO4
+      - EURO5
+      - EURO6
+
+    replaces:
+      - name: transport, passenger car with internal combustion engine
+        product: transport, passenger car with internal combustion engine
+        operator: equals
+
+  - name: transport, passenger car (new)
+    reference product: transport, passenger car
+    unit: kilometer
+    includes:
+      - ICEV
+      - BEV
+
+    replaces:
+      - name: transport, passenger car
+        product: transport, passenger car
