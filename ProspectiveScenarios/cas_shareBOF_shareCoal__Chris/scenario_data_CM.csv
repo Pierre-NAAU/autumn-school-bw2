@@ -1,0 +1,9 @@
+model;pathway;scenario;region;variables;unit;2020;2025;2030;2035;2040;2045;2050
+image;SSP2-Base;Business As Usual;RER;Share|steel_BOF;share;0.68;0.68;0.68;0.68;0.68;0.56;0.52
+image;SSP2-Base;Business As Usual;RER;Share|EAF_Coal;share;190;148.18;100.45;100;177.27;347.27;384.55
+image;SSP2-RCP26;Climate ambitious;RER;Share|steel_BOF;share;0.68;0.24;0.13;1;1;1;1
+image;SSP2-RCP26;Climate ambitious;RER;Share|EAF_Coal;share;190;129.13;68.25;24.9;8.3;0;0
+image;SSP3-Base;Regional rivalry;RER;Share|steel_BOF;share;0.68;0.56;0.49;0.42;0.36;0.17;0
+image;SSP3-Base;Regional rivalry;RER;Share|EAF_Coal;share;190;148.18;100.45;100;177.27;347.27;384.55
+image;SSP3-RCP60;Climate disaster;RER;Share|steel_BOF;share;0.68;0.56;0.49;0.42;0.36;0.17;0
+image;SSP3-RCP60;Climate disaster;RER;Share|EAF_Coal;share;190;148.18;100.45;100;177.27;347.27;384.55
