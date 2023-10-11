@@ -1,0 +1,17 @@
+Database,ecoinvent,,,,,,
+,,,,,,,
+Activity,reinforcing steel production,,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+reference product,reinforcing steel production,,,,,,
+type,process,,,,,,
+unit,kilogram,,,,,,
+,,,,,,,
+Exchanges,,,,,,,
+name,amount,database,location,categories,unit,type,reference product
+reinforcing steel production,1,ecoinvent-391-cutoff ,FR,,kilogram,production,steel production
+"steel production, electric, low-alloyed","0,98",ecoinvent-391-cutoff ,Europe without Switzerland and Austria,,kilogram,technosphere,"steel, low-alloyed "
+"steel production, converter, unalloyed","0,02",ecoinvent-391-cutoff ,RER,,kilogram,technosphere,"steel, unalloyed"
+"hot rolling, steel",1,ecoinvent-391-cutoff ,Europe without Austria,,kilogram,technosphere,"hot rolling, steel "
+"transport, freight, lorry 16-32 metric ton, EURO6","0,686",ecoinvent-391-cutoff ,RER,,ton kilometer,technosphere,"transport, freight, lorry 16-32 metric ton, EURO6 "
+ ,,,,,,,
