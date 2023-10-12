@@ -7,21 +7,103 @@ production pathways:
     production volume:
       variable: Share|cement_SlagClinker
     ecoinvent alias:
-      name: market for transport, passenger car with internal combustion engine
-      reference product: transport, passenger car with internal combustion engine
+      name: market for cement, all types, adjusted
+      reference product: cement production, CEM II/A-V
+      exists in original database: False
 
   cement_ClayClinker:
     production volume:
       variable: Share|cement_ClayClinker
     ecoinvent alias:
-      name: market for transport, passenger car, electric
-      reference product: transport, passenger car, electric
+      name: market for cement, all types, adjusted
+      reference product: cement production, Clay
+      exists in original database: False
 
   cement_FlyAshClinker:
     production volume:
       variable: Share|cement_FlyAshClinker
     ecoinvent alias:
-      name: market for transport, passenger car, EURO 3
-      reference product: transport, passenger car, EURO 3
+      name: market for cement, all types, adjusted
+      reference product: cement production, CEM II/A-S
+      exists in original database: False
 
- 
+   cement_Clinker:
+    production volume:
+      variable: Share|cement_Clinker
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, Portland - Europe without Switzerland
+      
+   cement_CEM_IIIA:
+    production volume:
+      variable: Share|cement_CEM_IIIA
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM III/A - Europe without Switzerland
+
+   cement_CEM_IIIB:
+    production volume:
+      variable: Share|cement_CEM_IIIB
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM III/B - Europe without Switzerland
+      
+   cement_CEM_IIIC:
+    production volume:
+      variable: Share|cement_CEM_IIIC
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM III/C - Europe without Switzerland
+      
+   cement_CEM_IVA:
+    production volume:
+      variable: Share|cement_CEM_IVA
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM IV/A - Europe without Switzerland
+
+   cement_CEM_IVB:
+    production volume:
+      variable: Share|cement_CEM_IVB
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM IV/B - Europe without Switzerland
+           
+   cement_CEM_VA:
+    production volume:
+      variable: Share|cement_CEM_VA
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM V/A - Europe without Switzerland
+
+   cement_CEM_VB:
+    production volume:
+      variable: Share|cement_CEM_VB
+    ecoinvent alias:
+      name: market for cement, all types, adjusted
+      reference product: market for cement, CEM V/B - Europe without Switzerland
+      
+      
+      
+
+markets:
+  - name: market for cement, all types, adjusted (new)
+    reference product: cement, all types
+    unit: kilometer
+    includes:
+      - cement_SlagClinker
+      - cement_ClayClinker
+      - cement_FlyAshClinker
+      - cement_Clinker
+      - cement_CEM_IIIA
+      - cement_CEM_IIIB
+      - cement_CEM_IIIC
+      - cement_CEM_IVA
+      - cement_CEM_IVB
+      - cement_CEM_VA
+      - cement_CEM_VB
+
+    replaces:
+      - name: cement, all types to generic market for cement, unspecified
+        product: Cement, Unspecified
+        operator: equals
