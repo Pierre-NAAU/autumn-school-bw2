@@ -7,7 +7,7 @@ production pathways:
     production volume:
       variable: Share|cement_SlagClinker
     ecoinvent alias:
-      name: market for cement, all types, adjusted
+      name: cement production, CEM II/A-V
       reference product: cement production, CEM II/A-V
       exists in original database: False
 
@@ -15,7 +15,7 @@ production pathways:
     production volume:
       variable: Share|cement_ClayClinker
     ecoinvent alias:
-      name: market for cement, all types, adjusted
+      name: cement production, Clay
       reference product: cement production, Clay
       exists in original database: False
 
@@ -23,7 +23,7 @@ production pathways:
     production volume:
       variable: Share|cement_FlyAshClinker
     ecoinvent alias:
-      name: market for cement, all types, adjusted
+      name: cement production, CEM II/A-S
       reference product: cement production, CEM II/A-S
       exists in original database: False
 
@@ -31,81 +31,78 @@ production pathways:
     production volume:
       variable: Share|cement_Clinker
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, Portland - Europe without Switzerland
+      name: market for cement, Portland
+      reference product: cement, Portland
       
   cement_CEM_IIIA:
     production volume:
       variable: Share|cement_CEM_IIIA
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM III/A - Europe without Switzerland
+      name: market for cement, CEM III/A
+      reference product: cement, CEM III/A
 
   cement_CEM_IIIB:
     production volume:
       variable: Share|cement_CEM_IIIB
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM III/B - Europe without Switzerland
+      name: market for cement, CEM III/B
+      reference product: cement, CEM III/B
       
   cement_CEM_IIIC:
     production volume:
       variable: Share|cement_CEM_IIIC
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM III/C - Europe without Switzerland
+      name: market for cement, CEM III/C
+      reference product: cement, CEM III/C
       
   cement_CEM_IVA:
     production volume:
       variable: Share|cement_CEM_IVA
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM IV/A - Europe without Switzerland
+      name: market for cement, CEM IV/A
+      reference product: cement, CEM IV/A
 
   cement_CEM_IVB:
     production volume:
       variable: Share|cement_CEM_IVB
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM IV/B - Europe without Switzerland
+      name: market for cement, CEM IV/B
+      reference product: cement, CEM IV/B
            
   cement_CEM_VA:
     production volume:
       variable: Share|cement_CEM_VA
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM V/A - Europe without Switzerland
+      name: market for cement, CEM V/A
+      reference product: cement, CEM V/A
 
   cement_CEM_VB:
     production volume:
       variable: Share|cement_CEM_VB
     ecoinvent alias:
-      name: market for cement, all types, adjusted
-      reference product: market for cement, CEM V/B - Europe without Switzerland
-
-
+      name: market for cement, CEM V/B
+      reference product: cement, CEM V/B
+      
   steel_BOF:
     production volume:
       variable: Share|steel_BOF
     ecoinvent alias:
-      name: market for steel, all types, adjusted
-      reference product: ...
-      exists in original database: False
+      name: steel production, converter, low-alloyed
+      reference product: steel production, converter, low-alloyed
 
   steel_EAF:
     production volume:
       variable: Share|steel_EAF
     ecoinvent alias:
-      name: market for steel, all types, adjusted
-      reference product: ...
-      exists in original database: False      
+      name: steel production, electric, low-alloyed 
+      reference product: steel production, electric, low-alloyed
       
       
 
 markets:
-  - name: market for cement, all types, adjusted (new)
+  - name: market for cement, all types, adjusted
     reference product: cement, all types
-    unit: kilometer
+    unit: kilogram
     includes:
       - cement_SlagClinker
       - cement_ClayClinker
@@ -124,15 +121,14 @@ markets:
         product: Cement, Unspecified
         operator: equals
         
-markets:
-  - name: market for steel, all types, adjusted (new)
-    reference product: steel, all types
-    unit: kilometer
+  - name: steel production, low-alloyed, adjusted
+    reference product: steel production, low-alloyed, adjusted
+    unit: kilogram
     includes:
       - steel_BOF
       - steel_EAF
 
     replaces:
-      - name: ...
-        product: ...
-        operator: ...
+      - name: market for steel, low-alloyed
+        product: Steel, Low-alloyed
+        operator: equals
