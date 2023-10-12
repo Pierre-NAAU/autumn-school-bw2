@@ -1,0 +1,73 @@
+Database,ecoinvent-391-cutoff ,,,,,,
+,,,,,,,
+Activity,"cement production, CEM II/A-S",,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+reference product,"cement production, CEM II/A-S",,,,,,
+type,process,,,,,,
+unit,kilogram,,,,,,
+,,,,,,,
+Exchanges,,,,,,,
+name,amount,database,location,categories,unit,type,reference product
+"cement production, CEM II/A-S",1,ecoinvent-391-cutoff ,RER,,kilogram ,production,"cement production, CEM II/A-S"
+market for cement factory ,5.36e-11 ,ecoinvent-391-cutoff ,GLO,,unit,technosphere,cement factory 
+clinker production ,0.8265 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram,technosphere,clinker 
+"market group for electricity, medium voltage ",0.0374 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilowatt hour ,technosphere,"electricity, medium voltage "
+market for ethylene glycol ,0.00021 ,ecoinvent-391-cutoff ,GLO,,kilogram,technosphere,ethylene glycol 
+"market for heat, district or industrial, other than natural gas ",0.003136 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,megajoule ,technosphere,"heat, district or industrial, other than natural gas "
+"market for steel, low-alloyed ",0.00011 ,ecoinvent-391-cutoff ,GLO,,kilogram ,technosphere,"steel, low-alloyed "
+market for ground granulated blast furnace slag ,0.135 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram ,technosphere,ground granulated blast furnace slag
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Database,ecoinvent-391-cutoff ,,,,,,
+,,,,,,,
+Activity,"cement production, CEM II/A-V",,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+reference product,"cement production, CEM II/A-V",,,,,,
+type,process,,,,,,
+unit,kilogram,,,,,,
+,,,,,,,
+Exchanges,,,,,,,
+name,amount,database,location,categories,unit,type,reference product
+"cement production, CEM II/A-V",1,ecoinvent-391-cutoff ,RER,,kilogram ,production,"cement production, CEM II/A-V"
+market for cement factory ,5.36e-11 ,ecoinvent-391-cutoff ,GLO,,unit,technosphere,cement factory 
+clinker production ,0.8265 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram,technosphere,clinker 
+"market group for electricity, medium voltage ",0.0374 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilowatt hour ,technosphere,"electricity, medium voltage "
+market for ethylene glycol ,0.00021 ,ecoinvent-391-cutoff ,GLO,,kilogram,technosphere,ethylene glycol 
+"market for heat, district or industrial, other than natural gas ",0.003136 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,megajoule ,technosphere,"heat, district or industrial, other than natural gas "
+"market for steel, low-alloyed ",0.00011 ,ecoinvent-391-cutoff ,GLO,,kilogram ,technosphere,"steel, low-alloyed "
+market for fly ash and scrubber sludge ,0.16875 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram ,technosphere,fly ash and scrubber sludge
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Database,ecoinvent-391-cutoff ,,,,,,
+,,,,,,,
+Activity,"cement production, LC3",,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+location,RER,,,,,,
+production amount,1,,,,,,
+reference product,"cement production, LC3",,,,,,
+type,process,,,,,,
+unit,kilogram,,,,,,
+,,,,,,,
+Exchanges,,,,,,,
+name,amount,database,location,categories,unit,type,reference product
+"cement production, LC3",1,ecoinvent-391-cutoff ,RER,,kilogram ,production,"cement production, LC3"
+market for cement factory ,5.36e-11 ,ecoinvent-391-cutoff ,GLO,,unit,technosphere,cement factory 
+clinker production ,0.5,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram,technosphere,clinker 
+"market group for electricity, medium voltage ",0.0374 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilowatt hour ,technosphere,"electricity, medium voltage "
+market for ethylene glycol ,0.00021 ,ecoinvent-391-cutoff ,GLO,,kilogram,technosphere,ethylene glycol 
+"market for heat, district or industrial, other than natural gas ",0.003136 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,megajoule ,technosphere,"heat, district or industrial, other than natural gas "
+"market for steel, low-alloyed ",0.00011 ,ecoinvent-391-cutoff ,GLO,,kilogram ,technosphere,"steel, low-alloyed "
+market for fly ash and scrubber sludge ,0.16875 ,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram ,technosphere,fly ash and scrubber sludge
+"market for limestone, crushed, for mill ",0.15,ecoinvent-391-cutoff ,Europe without Switzerland ,,kilogram ,technosphere,"limestone, crushed, for mill "
+"market for gypsum, mineral ",0.05,ecoinvent-391-cutoff ,RER,,kilogram ,technosphere,"gypsum, mineral "
+market for calcined clay ,0.3,ecoinvent-391-cutoff ,BR,,kilogram ,technosphere,calcined clay 
