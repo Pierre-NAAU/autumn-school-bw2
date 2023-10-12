@@ -89,6 +89,7 @@ production pathways:
     ecoinvent alias:
       name: steel production, converter, low-alloyed
       reference product: steel production, converter, low-alloyed
+      location: RER
 
   steel_EAF:
     production volume:
@@ -96,6 +97,7 @@ production pathways:
     ecoinvent alias:
       name: steel production, electric, low-alloyed 
       reference product: steel production, electric, low-alloyed
+      location: RER
       
       
 
