@@ -1,7 +1,7 @@
 {
     "profile": "data-package",
-    "name": "scenario-example-sharecementmarket",
-    "title": "Scenario Example ShareCementMarket",
+    "name": "scenario-example-sharecementandsteelmarket",
+    "title": "Scenario Example ShareCementAndSteelMarket",
     "description": "Test of prospective ShareCementMarket scenarios to be used in premise",
     "version": "0.0.0",
     "contributors":[{
@@ -117,7 +117,7 @@
             }
         },
 		{
-            "path": "inventories/lci-newCements.xlsx",
+            "path": "inventories/lci-newCements-newSteel.xlsx",
             "profile": "data-resource",
             "name": "inventories",
             "format": "csv",
