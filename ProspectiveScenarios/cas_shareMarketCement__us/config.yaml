@@ -27,56 +27,56 @@ production pathways:
       reference product: cement production, CEM II/A-S
       exists in original database: False
 
-   cement_Clinker:
+  cement_Clinker:
     production volume:
       variable: Share|cement_Clinker
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, Portland - Europe without Switzerland
       
-   cement_CEM_IIIA:
+  cement_CEM_IIIA:
     production volume:
       variable: Share|cement_CEM_IIIA
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM III/A - Europe without Switzerland
 
-   cement_CEM_IIIB:
+  cement_CEM_IIIB:
     production volume:
       variable: Share|cement_CEM_IIIB
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM III/B - Europe without Switzerland
       
-   cement_CEM_IIIC:
+  cement_CEM_IIIC:
     production volume:
       variable: Share|cement_CEM_IIIC
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM III/C - Europe without Switzerland
       
-   cement_CEM_IVA:
+  cement_CEM_IVA:
     production volume:
       variable: Share|cement_CEM_IVA
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM IV/A - Europe without Switzerland
 
-   cement_CEM_IVB:
+  cement_CEM_IVB:
     production volume:
       variable: Share|cement_CEM_IVB
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM IV/B - Europe without Switzerland
            
-   cement_CEM_VA:
+  cement_CEM_VA:
     production volume:
       variable: Share|cement_CEM_VA
     ecoinvent alias:
       name: market for cement, all types, adjusted
       reference product: market for cement, CEM V/A - Europe without Switzerland
 
-   cement_CEM_VB:
+  cement_CEM_VB:
     production volume:
       variable: Share|cement_CEM_VB
     ecoinvent alias:
