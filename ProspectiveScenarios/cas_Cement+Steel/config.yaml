@@ -87,15 +87,15 @@ production pathways:
     production volume:
       variable: Share|steel_BOF
     ecoinvent alias:
-      name: steel production, converter, low-alloyed - RER
-      reference product: Steel, Low-Alloyed
+      name: steel production, converter, low-alloyed
+      reference product: steel, low-alloyed
 
   steel_EAF:
     production volume:
       variable: Share|steel_EAF
     ecoinvent alias:
-      name: steel production, electric, low-alloyed - Europe without Switzerland and Austria
-      reference product: Steel, Low-Alloyed
+      name: steel production, electric, low-alloyed
+      reference product: steel, low-alloyed
       
       
 
@@ -118,7 +118,7 @@ markets:
 
     replaces:
       - name: cement, all types to generic market for cement, unspecified
-        product: Cement, Unspecified
+        product: cement, unspecified
         operator: equals
         
   - name: steel production, low-alloyed, adjusted
@@ -130,5 +130,5 @@ markets:
 
     replaces:
       - name: market for steel, low-alloyed
-        product: Steel, Low-Alloyed
+        product: steel, low-alloyed
         operator: equals
